@@ -1,2 +1,15 @@
-| [![Health Samurai](images/health-samurai.png)](https://www.health-samurai.io/) | [![Beda.Software](images/beda-software.png)](http://beda.software/) |
+<table width="100%" border="0">
+<tr>
+<td width="50%" style="border: none;">
+<a href="https://www.health-samurai.io/">
+<img src="images/health-samurai.png" alt="Health Samurai" />
+</a>
+</td>
+<td width="50%" style="border: none;">
+<a href="http://beda.software/">
+<img src="images/beda-software.png" alt="Beda.Software" />
+</a>
+</td>
+</tr>
+</table>
 
