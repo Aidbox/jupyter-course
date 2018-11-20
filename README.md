@@ -95,7 +95,11 @@ The new terminal window will be opened.
 
 ![Jupyter terminal](images/terminal.png)
 
-This terminal provides the full access to the file system. Input the next command into the terminal to clone the repository:
+This terminal provides the full access to the file system. Input the next commands into the terminal to update the `fhirpy` library and clone the repository:
+```
+pip install --upgrade fhirpy
+```
+  
 ```
 git clone https://github.com/Aidbox/jupyter-course
 ```
