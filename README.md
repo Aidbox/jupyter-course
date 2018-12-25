@@ -22,7 +22,7 @@ The course is built with AidBox platform - FHIR cloud backend.
 Once you have completed this course, you will be able to walk your way through basic FHIR resources and you will know how to perform basic operations.
 If you would like to follow the course and try out the examples, you should have basic experience programming in Python.
 
-The course consists of 5 interactive laboratory works. All laboratory works are in the Aidbox cloud platform. So, you need just your browser and internet connection.
+The course consists of 5 interactive laboratory works. All laboratory works are in the [Aidbox](http://www.health-samurai.io/aidbox) cloud platform. So, you need just your browser and internet connection.
 
 ## Creating a box
 To get an access to the interactive environment for the laboratory works, at first, you need to sign up and create your own AidBox account.
@@ -38,7 +38,7 @@ For example, if you've chosen github:
 
 ![Github sign in page](images/github.png)
 
-Fill in the required fields and grant an access for the Aidbox application.
+Fill in the required fields and grant an access for the [Aidbox](http://www.health-samurai.io/aidbox) application.
 After that, you'll be redirected to the main page, where you can see your boxes.
 
 ![Your boxes](images/boxes.png)
