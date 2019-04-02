@@ -42,10 +42,9 @@ mv .env-tpl .env
 
 Before you start you have to get free development license keys. Please [follow this instructions](https://docs.aidbox.app/installation/setup-aidbox.dev#license-obtaining).
 
-![.env file](images/dotenv_license_key.png)
-
 Then add your License id and License key to the env file.
 
+![.env file](images/dotenv_license_key.png)
 
 ## Start devbox and jupyter instance
 
