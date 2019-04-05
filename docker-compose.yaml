@@ -1,0 +1,55 @@
+version: '3.1'
+services:
+  devbox:
+    image: "healthsamurai/devbox:canary"
+    command: ["wait-for-it.sh", "devbox-db:5432", "--strict", "--timeout=0", "--", "java", "-jar", "/app.jar"]
+    depends_on:
+      - devbox-db
+    links:
+      - "devbox-db:database"
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080
+    env_file:
+    - .env
+    environment:
+      PGHOST: database
+      PGDATABASE: devbox
+      PGPORT: 5432
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      AIDBOX_CONFIG: /var/config/config.edn
+    volumes:
+      - ./wait-for-it.sh:/usr/local/bin/wait-for-it.sh
+      - ./config:/var/config
+  devbox-db:
+    image: "aidbox/db:11.1.0"
+    # ports:
+      # - "5434:5432"
+    expose:
+      - 5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: devbox
+  jupyter-course:
+    image: jupyter/datascience-notebook
+    ports:
+      - 8888:8888
+    depends_on:
+      - devbox-db
+      - devbox
+    command:
+      - "wait-for-it.sh"
+      - "devbox:8080"
+      - "--strict"
+      - "--timeout=0"
+      - "--"
+      - "start-notebook.sh"
+      - "--NotebookApp.token="
+    environment:
+      BOX_URL: ${AIDBOX_BASE_URL}
+      BOX_AUTHORIZATION: ${AIDBOX_BASIC_AUTH}
+    volumes:
+      - ./wait-for-it.sh:/usr/local/bin/wait-for-it.sh

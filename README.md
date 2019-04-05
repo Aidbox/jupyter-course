@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-# Learn basics of FHIR with Jupyter 
+# Learn basics of FHIR with Jupyter
 # Interactive laboratory works
 
 Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) is an industry standard for exchanging healthcare data. HL7 monitors implementations of FHIR and continually works to improve the specifications, in addition to providing support to those implementing FHIR at their organization. FHIR stands for Fast Healthcare Interoperability Resources and uses RESTful web services to share resources, describes how data are represented or organized. RESTful services (the acronym stands for Representational State Transfer) is an architectural style that specifies constraints and used in FHIR to exchange data using the structure it defines. In FHIR, there are more than 100 resources covering data such as problems and medication that are reused across FHIR “profiles.” Profiles provide general agreement on how different data should be shared and represented.
@@ -22,67 +22,39 @@ The course is built with AidBox platform - FHIR cloud backend.
 Once you have completed this course, you will be able to walk your way through basic FHIR resources and you will know how to perform basic operations.
 If you would like to follow the course and try out the examples, you should have basic experience programming in Python.
 
-The course consists of 5 interactive laboratory works. All laboratory works are in the [Aidbox](http://www.health-samurai.io/aidbox) cloud platform. So, you need just your browser and internet connection.
+The course consists of 5 interactive laboratory works. To start working with this laboratory works you need [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed.
 
-## Creating a box
-To get an access to the interactive environment for the laboratory works, at first, you need to sign up and create your own AidBox account.
+## Clone the repository
 
-You can do this here https://aidbox.app
-There are two options for sign up and login:
-* using github
-* using google
+```
+git clone https://github.com/Aidbox/jupyter-course.git
+cd jupyter-course
+```
 
-![Sign in page](images/signin.png)
+## Update environment variables
 
-For example, if you've chosen github:
+Rename `.env-tpl` file to `.env` in the jupyter-course folder:
+```
+mv .env-tpl .env
+```
 
-![Github sign in page](images/github.png)
+## License obtaining
 
-Fill in the required fields and grant an access for the [Aidbox](http://www.health-samurai.io/aidbox) application.
-After that, you'll be redirected to the main page, where you can see your boxes.
+Before you start you have to get free development license keys. Please [follow this instructions](https://docs.aidbox.app/installation/setup-aidbox.dev#license-obtaining).
 
-![Your boxes](images/boxes.png)
+Then add your License id and License key to the env file.
 
-Just after sign up, there are no boxes in the list. Let's create new one. Click the 'New Box' button.
+![.env file](images/dotenv_license_key.png)
 
-![Create new box](images/create_box.png)
+## Start devbox and jupyter instance
 
-Enter the box name field. Write here whatever you want.
-By default, the FHIR 3.0.1 option is selected, leave it as is, because we use this version in our laboratory works.
-Select the 'Free Tier' to use Aidbox.Cloud in the trial mode.
+```
+docker-compose up
+```
 
-![Create new box](images/create_box_2.png)
+If you've got any error, try to run `docker-compose stop` and then again `docker-compose up`. If you still see a error, contact the support team support@health-samurai.io for help.
 
-After the all fields are filled, click 'Create' button.
-You'll see your just created box on the main page.
-
-![Your boxes](images/boxes_list_with_box.png)
-
-You've just created your own separated aidbox instance that includes DB and REST API!
-Click the box. You will see the box settings page.
-
-## Creating a jupyter instance
-
-Go to the Jupyter section.
-
-![Box detail](images/box_detail_page.png)
-
-Click 'Open jupyter' link to set up jupyter environment.
-
-
-![Jupyter settings](images/settings_jupyter.png)
-
-For the moment, you don't have a jupyter instance created. Let's create it by clicking 'Create new' button.
-
-![Jupyter settings](images/settings_jupyter_init.png)
-
-After you created a jupyter instance, you should wait about a minute (sometimes it could take longer).
-Refresh the page manually, until the status become 'Ready'
-
-![Jupyter settings](images/settings_jupyter_created.png)
-
-Your own separated jupyter instance is created!
-Click 'Open in new window' link.
+After devbox-db and devbox started and initialized, you can go to http://127.0.0.1:8888 in your browser.
 
 ![Jupyter](images/jupyter.png)
 
@@ -99,7 +71,7 @@ This terminal provides the full access to the file system. Input the next comman
 ```
 pip install --upgrade fhirpy
 ```
-  
+
 ```
 git clone https://github.com/Aidbox/jupyter-course
 ```
@@ -146,7 +118,7 @@ If you like the laboratory works and would like to keep learning, we are happy t
 Please, visit our github and star our tools:
 
 https://github.com/beda-software/tk3  
-https://github.com/beda-software/fhir-py 
+https://github.com/beda-software/fhir-py
 
 Once both repositories get 100 stars, we'll share the next two laboratory works about Machine Learning and Data Analysis for FHIR.
 
