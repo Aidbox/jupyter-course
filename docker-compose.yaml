@@ -47,7 +47,7 @@ services:
       - "--timeout=0"
       - "--"
       - "start-notebook.sh"
-      - "--NotebookApp.password=${JUPYTER_ACCESS_TOKEN}"
+      - "--NotebookApp.token="
     environment:
       BOX_URL: ${AIDBOX_BASE_URL}
       BOX_AUTHORIZATION: ${AIDBOX_BASIC_AUTH}

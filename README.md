@@ -56,10 +56,6 @@ If you've got any error, try to run `docker-compose stop` and then again `docker
 
 After devbox-db and devbox started and initialized, you can go to http://127.0.0.1:8888 in your browser.
 
-If you haven't changed `JUPYTER_ACCESS_TOKEN` in the .env file, type `secret` in the password field and click `Log in`.
-
-![Jupyter](images/jupyter_password.png)
-
 ![Jupyter](images/jupyter.png)
 
 It is a main screen of jupyter web interface.
