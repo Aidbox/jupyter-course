@@ -69,7 +69,7 @@ The new terminal window will be opened.
 
 This terminal provides the full access to the file system. Input the next commands into the terminal to update the `fhirpy` library and clone the repository:
 ```
-pip install --upgrade fhirpy
+pip install --upgrade git+https://github.com/beda-software/fhir-py.git
 ```
 
 ```
