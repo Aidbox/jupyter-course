@@ -110,7 +110,6 @@ If you have any questions about the laboratory works, please create an issue in 
 If you like the laboratory works and would like to keep learning, we are happy to prepare more new laboratory works.
 Please, visit our github and star our tools:
 
-https://github.com/beda-software/tk3  
 https://github.com/beda-software/fhir-py
 
 Once both repositories get 100 stars, we'll share the next two laboratory works about Machine Learning and Data Analysis for FHIR.
