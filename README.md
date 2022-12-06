@@ -112,8 +112,6 @@ Please, visit our github and star our tools:
 
 https://github.com/beda-software/fhir-py
 
-Once both repositories get 100 stars, we'll share the next two laboratory works about Machine Learning and Data Analysis for FHIR.
-
 # Authors
 
-(c) 2018 <a href="http://beda.software/">Beda.Software</a>, <a href="https://www.health-samurai.io/"> Health Samurai</a>
+(c) 2022 <a href="http://beda.software/">Beda.Software</a>, <a href="https://www.health-samurai.io/"> Health Samurai</a>
