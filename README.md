@@ -61,11 +61,9 @@ After devbox-db and devbox started and initialized, you can go to http://127.0.0
 It is a main screen of jupyter web interface.
 Now you need to clone the current repository using the terminal.  Click the 'New' button as it shown on the screen below, and select 'Terminal'.
 
-![Jupyter terminal](images/jupyter_create_terminal.png)
+![Jupyter terminal](images/jupyter_create_terminal_1.png)
 
 The new terminal window will be opened.
-
-![Jupyter terminal](images/terminal.png)
 
 This terminal provides the full access to the file system. Input the next commands into the terminal to update the `fhirpy` library and clone the repository:
 ```
