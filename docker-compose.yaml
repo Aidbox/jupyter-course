@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   devbox:
-    image: "healthsamurai/devbox:0.4.7"
+    image: "healthsamurai/aidboxone:edge"
     command: ["wait-for-it.sh", "devbox-db:5432", "--strict", "--timeout=0", "--", "java", "-jar", "/aidbox.jar", "-m", "devbox.core"]
     depends_on:
       - devbox-db
@@ -24,7 +24,7 @@ services:
       - ./wait-for-it.sh:/usr/local/bin/wait-for-it.sh
       - ./config:/var/config
   devbox-db:
-    image: "aidbox/db:11.4.0.2"
+    image: "healthsamurai/aidboxdb:14.2"
     expose:
       - 5432
     environment:
