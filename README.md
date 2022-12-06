@@ -68,17 +68,13 @@ The new terminal window will be opened.
 This terminal provides the full access to the file system. Input the next commands into the terminal to update the `fhirpy` library and clone the repository:
 ```
 pip install --upgrade git+https://github.com/beda-software/fhir-py.git
-```
 
-```
 git clone https://github.com/Aidbox/jupyter-course
 ```
 
 ![Jupyter terminal](images/terminal_git_clone.png)
 
 Go back to the jupyter web interface. Now you can see a just cloned directory 'jupyter-course'.
-
-![Jupyter](images/jupyter_with_repo.png)
 
 Click the 'jupyter-course' directory to open it.
 
@@ -90,12 +86,11 @@ The directory contains this instruction and laboratory works. Before you start d
 
 Click 'Lab #0. Data initialization.ipynb' to open an initial notebook.
 
-![Jupyter Notebook](images/jupyter_notebook_init.png)
 
 Run this notebook step-by-step using 'Run' command from toolbar.
 As a result, you should get the same messages as on the screen below.
 
-![Jupyter Notebook](images/jupyter_notebook_import_results.png)
+![Jupyter Notebook](images/jupyter_notebook_first.png)
 
 If you see an error message or zero patients imported, contact the support team support@health-samurai.io for help.
 Also, don't try to run this notebook again, you will always get an error.
@@ -104,7 +99,7 @@ In other cases, you are ready to start doing laboratory works.
 Start from the first 'Lab #1. Introduction to FHIR resources.ipynb'
 Good luck!
 
-![Jupyter Notebook](images/jupyter_notebook_first.png)
+
 
 # Support
 
