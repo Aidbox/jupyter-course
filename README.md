@@ -40,9 +40,9 @@ mv .env-tpl .env
 
 ## License obtaining
 
-Before you start you have to get free development license keys. Please [follow this instructions](https://docs.aidbox.app/installation/setup-aidbox.dev#license-obtaining).
+Before you start you have to get an Aidbox license. Please [follow this instructions](https://docs.aidbox.app/getting-started/run-aidbox-locally-with-docker#get-a-license).
 
-Then add your License id and License key to the env file.
+Then add your License to the env file.
 
 ![.env file](images/dotenv_license_key.png)
 
