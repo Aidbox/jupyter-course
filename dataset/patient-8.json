@@ -64,11 +64,11 @@
           },
           {
             "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
-            "valueDecimal": 0.0
+            "valueDecimal": 0
           },
           {
             "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
-            "valueDecimal": 7.0
+            "valueDecimal": 7
           }
         ],
         "identifier": [
@@ -175,8 +175,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Patient"
+        "method": "PUT",
+        "url": "Patient/dec0b447-5e6d-40ec-9209-cb69d156663e"
       }
     },
     {
@@ -223,8 +223,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Organization"
+        "method": "PUT",
+        "url": "Organization/5464de19-8db1-305c-9feb-77921762d783"
       }
     },
     {
@@ -271,8 +271,8 @@
         "gender": "male"
       },
       "request": {
-        "method": "POST",
-        "url": "Practitioner"
+        "method": "PUT",
+        "url": "Practitioner/0000016e-3ee4-e934-0000-000000014794"
       }
     },
     {
@@ -319,8 +319,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/b6caf319-d351-4dc2-8e30-66e3d8f63369"
       }
     },
     {
@@ -366,8 +366,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b70d6f18-b766-41dd-bed4-67ea7f3f3b8d"
       }
     },
     {
@@ -413,8 +413,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0987aed0-9869-4d30-827d-43285f06ad5a"
       }
     },
     {
@@ -460,8 +460,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ecb66a30-b0f3-4ea2-aa5c-19b48e6b0e3e"
       }
     },
     {
@@ -507,8 +507,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/6f349889-e84f-4d85-a016-58c85d354f53"
       }
     },
     {
@@ -586,8 +586,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f5c7d3be-1228-4517-910d-ded6251eb66c"
       }
     },
     {
@@ -633,8 +633,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/e1da6e7f-d07a-4a9c-b1da-cc57b38694f3"
       }
     },
     {
@@ -680,8 +680,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/5933bb02-88ba-41d8-a5dd-5b54c9a97dcd"
       }
     },
     {
@@ -727,8 +727,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/2049a498-6fcd-4b1b-9a6e-998495951164"
       }
     },
     {
@@ -774,8 +774,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c153f784-fbb1-4451-a75a-009c857b7d06"
       }
     },
     {
@@ -821,8 +821,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/76a942c6-57fd-429c-aad4-2596bd769030"
       }
     },
     {
@@ -868,8 +868,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/258e8e83-09fd-4984-93b7-1686431e0b10"
       }
     },
     {
@@ -915,8 +915,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b75e24b1-d5bd-45d2-aa83-764c99598e65"
       }
     },
     {
@@ -962,8 +962,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/99a3cfac-1d51-4d7c-bc6b-a4f16be06d12"
       }
     },
     {
@@ -1009,8 +1009,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ffcc7548-44c7-4095-9be2-e73ed68d1fab"
       }
     },
     {
@@ -1056,8 +1056,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/2384faf8-1099-4324-9d8e-4661d67ba142"
       }
     },
     {
@@ -1103,8 +1103,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/60e87265-33c5-418e-8441-6816d02d95a1"
       }
     },
     {
@@ -1154,8 +1154,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/fdeef363-4d66-4ec8-adba-fa75c096b5ac"
       }
     },
     {
@@ -1186,8 +1186,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/1851b05d-93af-4c8a-99d9-c91f88d6bcc4"
       }
     },
     {
@@ -1216,8 +1216,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/cfc2f4b8-48c2-4831-9a59-50f283d822d3"
       }
     },
     {
@@ -1303,8 +1303,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "DiagnosticReport"
+        "method": "PUT",
+        "url": "DiagnosticReport/d8182edf-dcff-483c-b42b-d8a796d035a1"
       }
     },
     {
@@ -1442,8 +1442,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/4242c5dd-45e5-48b2-b52a-591edd525cb4"
       }
     },
     {
@@ -1878,8 +1878,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/b7e94924-f4c7-4481-98e6-80d7514191e3"
       }
     },
     {
@@ -1926,8 +1926,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/75889919-ddde-4da0-8dff-981e665edeed"
       }
     },
     {
@@ -1973,8 +1973,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f32746c0-9b4c-4dd3-9e5b-920880932a9e"
       }
     },
     {
@@ -2020,8 +2020,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/eccff41d-c6f8-4555-9081-c461c847d9fb"
       }
     },
     {
@@ -2067,8 +2067,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0b4fc2a1-e806-4168-9b52-0c5506c9546e"
       }
     },
     {
@@ -2114,8 +2114,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/a813dad0-9045-4f57-af1c-f41f7ee0577d"
       }
     },
     {
@@ -2193,8 +2193,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c7a4f1a2-7ec1-4266-95b4-e0988edadfe8"
       }
     },
     {
@@ -2244,8 +2244,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c26eba7f-b9fa-4ae7-b3a6-f4c5c8369c04"
       }
     },
     {
@@ -2274,8 +2274,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/6d8d131a-5644-480b-9818-1c048abd49b7"
       }
     },
     {
@@ -2385,8 +2385,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/71f40777-5b7b-4d59-87c9-1ddf889f6df2"
       }
     },
     {
@@ -2694,8 +2694,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/1fd2881e-6609-4d47-999f-503e7409fb72"
       }
     },
     {
@@ -2742,8 +2742,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/5c8c2a2f-649e-4682-8786-aff5640d0595"
       }
     },
     {
@@ -2789,8 +2789,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/85b64800-bdb0-42b5-b2c7-3e40ffb16a89"
       }
     },
     {
@@ -2836,8 +2836,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ac0bd92e-c73d-4286-b254-548af73c978d"
       }
     },
     {
@@ -2883,8 +2883,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c904e311-4573-41e5-bb2e-69be2a10b31b"
       }
     },
     {
@@ -2930,8 +2930,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/491ab2b8-935c-41a8-bd07-266681f46698"
       }
     },
     {
@@ -3009,8 +3009,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c4abbd20-e03c-421b-857e-9d1902ac0e10"
       }
     },
     {
@@ -3060,8 +3060,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/7a11d689-87cb-46c7-b12a-b347e94e627c"
       }
     },
     {
@@ -3090,8 +3090,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/d79154b6-030a-4782-a1b4-47fb2305505a"
       }
     },
     {
@@ -3120,8 +3120,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/bba24e5a-367e-4303-8abd-84025f006590"
       }
     },
     {
@@ -3150,8 +3150,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/bcd9ff1d-0dde-4a58-86ef-6817b9b19a8e"
       }
     },
     {
@@ -3180,8 +3180,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/8fd5b0cd-d8d7-48d9-b8df-06e805f7897e"
       }
     },
     {
@@ -3210,8 +3210,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/9db9e3f6-32a3-4c2e-a997-3fc638659ff7"
       }
     },
     {
@@ -3457,8 +3457,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/8ccd4e3f-a746-45d8-a241-c17d23a1a4da"
       }
     },
     {
@@ -4286,8 +4286,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/4a2d2630-1f1d-49cd-9f1f-8a642ccb27f9"
       }
     },
     {
@@ -4334,8 +4334,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/de34d16a-2fc3-4770-a63f-82c1e13f9c20"
       }
     },
     {
@@ -4381,8 +4381,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4bfabb69-a641-4afd-8188-4e557b5dd3f6"
       }
     },
     {
@@ -4428,8 +4428,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c8096f5a-837c-4624-98df-13a4ff32f435"
       }
     },
     {
@@ -4475,8 +4475,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0f43fac5-5ed9-4362-9b1e-4a81dd7538f1"
       }
     },
     {
@@ -4522,8 +4522,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/44c0b291-67f6-4713-9373-3b23189114a6"
       }
     },
     {
@@ -4601,8 +4601,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/74bab473-dc6a-4bcf-8847-cb8962918e1d"
       }
     },
     {
@@ -4652,8 +4652,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/8cedf003-af1c-44bb-b8a8-27784f118520"
       }
     },
     {
@@ -4682,8 +4682,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/539d001a-c10d-4553-8980-dbe07d93005a"
       }
     },
     {
@@ -4712,8 +4712,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/a61cc2d8-86e8-4d13-8aa0-819a8432921e"
       }
     },
     {
@@ -4742,8 +4742,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/a5fde26b-418d-4295-80b9-a84b98eaee3a"
       }
     },
     {
@@ -4772,8 +4772,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/b3214e6f-5878-4005-aae7-2f2b60631d0d"
       }
     },
     {
@@ -4802,8 +4802,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/9b8991e3-749c-4365-b3d6-2d5fa3960251"
       }
     },
     {
@@ -5049,8 +5049,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/7ff3c70b-13bb-4db3-b141-ea8155b51d3f"
       }
     },
     {
@@ -5878,8 +5878,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/78b31505-baa1-4ce3-9ffd-6576dfe2d112"
       }
     },
     {
@@ -5926,8 +5926,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/bd5e20ca-3c57-4333-b870-cca62fd6736b"
       }
     },
     {
@@ -5973,8 +5973,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/954a06c3-b8a2-47c8-99af-61621d388757"
       }
     },
     {
@@ -6020,8 +6020,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/8a6ea999-83e8-4d2f-8985-9b4146d33e28"
       }
     },
     {
@@ -6067,8 +6067,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/1599c0d8-5ffb-4164-ab22-2695dacb18ee"
       }
     },
     {
@@ -6114,8 +6114,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/76ac37fc-e3a7-48ab-bbc5-2420b7c0c565"
       }
     },
     {
@@ -6193,8 +6193,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/50d3e74d-007f-4a7f-a4c8-5dca14483651"
       }
     },
     {
@@ -6244,8 +6244,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/85d4552d-47ce-4bc8-9e4d-b731a22e3c4d"
       }
     },
     {
@@ -6274,8 +6274,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/13d60c97-1dd7-4529-93ce-547a4270883b"
       }
     },
     {
@@ -6304,8 +6304,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/f116c03e-4418-4c8e-a925-07ef9ac20f30"
       }
     },
     {
@@ -6334,8 +6334,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/d0cfe357-f8ad-4fcc-b34a-474f3ea1a06b"
       }
     },
     {
@@ -6364,8 +6364,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/d02691d7-1627-430c-ab9b-c43a535e65f3"
       }
     },
     {
@@ -6394,8 +6394,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/800241be-02ad-442c-b962-aba33b5c7830"
       }
     },
     {
@@ -6641,8 +6641,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/8076c6ad-fad1-41fa-8e5b-2aba877488bf"
       }
     },
     {
@@ -7470,8 +7470,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/4604192e-8f83-4053-a7ec-fa4c5cb61300"
       }
     },
     {
@@ -7518,8 +7518,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/47125101-d2c0-470b-a2b6-810d673f9a91"
       }
     },
     {
@@ -7565,8 +7565,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0e79b883-25e3-4a5c-862b-f629207c199a"
       }
     },
     {
@@ -7612,8 +7612,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/25dba7e9-f425-4635-8b14-c1252d464b44"
       }
     },
     {
@@ -7659,8 +7659,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/482caa3c-8f25-42e3-8912-a83f6e6daaf8"
       }
     },
     {
@@ -7706,8 +7706,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/be935764-b461-4319-a8ef-e1f672db8f3e"
       }
     },
     {
@@ -7785,8 +7785,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/5a210483-8b72-4c7a-928f-5b6d815aa1dc"
       }
     },
     {
@@ -7836,8 +7836,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4a6582f9-21c9-47f5-a694-9efded9f8174"
       }
     },
     {
@@ -7911,8 +7911,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/2b596a7d-afa2-4692-9594-d7aa3544f0fa"
       }
     },
     {
@@ -8084,14 +8084,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/a979a448-7f37-4300-9c22-95b87f426daf"
       }
     },
     {
@@ -8138,8 +8138,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/84ba7602-bddf-4c37-b0e3-d0a2bc905f21"
       }
     },
     {
@@ -8185,8 +8185,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/330a12c0-de36-40cb-9844-c066d1c5a45f"
       }
     },
     {
@@ -8232,8 +8232,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/59312331-2a79-498e-9814-638a34264ecb"
       }
     },
     {
@@ -8279,8 +8279,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4d16181c-ccdf-4fce-bd9d-93cb209646d5"
       }
     },
     {
@@ -8326,8 +8326,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/d11af51b-1f01-4285-9d17-0622850106fb"
       }
     },
     {
@@ -8405,8 +8405,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c83f48c9-9bc3-4619-8354-205c4b298e8f"
       }
     },
     {
@@ -8456,8 +8456,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/52c86423-7d84-4571-a905-db60e1b54282"
       }
     },
     {
@@ -8488,8 +8488,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/9e874b75-3187-4a77-b172-1edc4cc830ea"
       }
     },
     {
@@ -8518,8 +8518,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/eb882b30-e97f-47b0-8b8d-bab34b7fcb37"
       }
     },
     {
@@ -8548,8 +8548,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/0ec9714d-22ad-4739-9513-e95f114f3f52"
       }
     },
     {
@@ -8578,8 +8578,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/6ecabe25-fcef-455e-ab21-285201e8f792"
       }
     },
     {
@@ -8608,8 +8608,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/ce967d04-ef58-43b5-ad0d-f0bcf2a9052b"
       }
     },
     {
@@ -8638,8 +8638,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/e9f6dd54-1e05-4dee-94bc-ab6b91b3d064"
       }
     },
     {
@@ -8913,8 +8913,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/e69c2c98-19d4-4eb6-8124-71bb70c63603"
       }
     },
     {
@@ -9869,8 +9869,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/026401ef-c233-4dbf-9e91-01251f31b003"
       }
     },
     {
@@ -9917,8 +9917,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/73985922-b01c-453e-8e67-0f7d55b57aa1"
       }
     },
     {
@@ -9964,8 +9964,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/1142914b-f7d0-46ad-beca-7a265282f054"
       }
     },
     {
@@ -10011,8 +10011,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/24103b21-5a13-4ea9-94e5-f327340324c7"
       }
     },
     {
@@ -10058,8 +10058,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b65a4545-c765-4005-9db8-16de5a601fe5"
       }
     },
     {
@@ -10105,8 +10105,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/e7df2d5a-0bd3-453c-85f4-ff36915bc7e3"
       }
     },
     {
@@ -10184,8 +10184,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/aa88871b-9aef-416f-b8fd-4acd3ac4440f"
       }
     },
     {
@@ -10235,8 +10235,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/3247262f-7123-4310-a379-b66385ba0e27"
       }
     },
     {
@@ -10267,8 +10267,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/901b08e9-262f-4038-b4c2-e5928ecce5f0"
       }
     },
     {
@@ -10297,8 +10297,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/c7d01903-2316-4ccd-ba1c-3d8a85a88b27"
       }
     },
     {
@@ -10436,8 +10436,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/3dd712c4-616f-49be-9d61-63be602bb192"
       }
     },
     {
@@ -10872,8 +10872,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/58146b8d-14e1-48ba-9d6e-ce025d1bf802"
       }
     },
     {
@@ -10920,8 +10920,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Organization"
+        "method": "PUT",
+        "url": "Organization/b0e04623-b02c-3f8b-92ea-943fc4db60da"
       }
     },
     {
@@ -10968,8 +10968,8 @@
         "gender": "male"
       },
       "request": {
-        "method": "POST",
-        "url": "Practitioner"
+        "method": "PUT",
+        "url": "Practitioner/0000016e-3ee4-e934-0000-0000000000f0"
       }
     },
     {
@@ -11027,8 +11027,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/336d9ec3-e41f-4b00-9739-3f6b4a9485d7"
       }
     },
     {
@@ -11073,8 +11073,8 @@
         "recordedDate": "2012-07-28T04:18:32+08:00"
       },
       "request": {
-        "method": "POST",
-        "url": "Condition"
+        "method": "PUT",
+        "url": "Condition/95e87814-2468-4646-ae0d-20acfd78e858"
       }
     },
     {
@@ -11123,7 +11123,7 @@
             "timing": {
               "repeat": {
                 "frequency": 2,
-                "period": 1.0,
+                "period": 1,
                 "periodUnit": "d"
               }
             },
@@ -11140,7 +11140,7 @@
                   ]
                 },
                 "doseQuantity": {
-                  "value": 1.0
+                  "value": 1
                 }
               }
             ]
@@ -11148,8 +11148,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "MedicationRequest"
+        "method": "PUT",
+        "url": "MedicationRequest/814e6858-9f51-4647-a94c-252539a12aa7"
       }
     },
     {
@@ -11225,8 +11225,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/2338942a-fe62-4ab1-9267-c9390f33d921"
       }
     },
     {
@@ -11265,8 +11265,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "MedicationRequest"
+        "method": "PUT",
+        "url": "MedicationRequest/95f6d1e0-a367-47d6-86a1-5a3b15d6eb2c"
       }
     },
     {
@@ -11342,8 +11342,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/f747e6df-b914-43dd-95e9-4e9115b458e9"
       }
     },
     {
@@ -11441,8 +11441,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/3af9c16a-dc06-4106-8fc6-3504f149eed3"
       }
     },
     {
@@ -11670,14 +11670,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/c63e75af-343f-47f6-8066-2002438814dd"
       }
     },
     {
@@ -11724,8 +11724,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/67066851-da10-4a63-8296-177aa5ab8dec"
       }
     },
     {
@@ -11771,8 +11771,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c9037703-b9be-4bbf-b0a3-6a6195dc06a4"
       }
     },
     {
@@ -11818,8 +11818,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/cf099f31-1812-4f50-800e-5d57c351c46f"
       }
     },
     {
@@ -11865,8 +11865,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4d15d32a-3f26-4955-b385-ce4eeaec075a"
       }
     },
     {
@@ -11912,8 +11912,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0ee35603-a955-4ed5-ae36-7371f9f06c29"
       }
     },
     {
@@ -11991,8 +11991,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/13638440-b1a6-44fc-8c01-4623cca6d896"
       }
     },
     {
@@ -12042,8 +12042,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f6a4b76c-8157-4041-ac78-a20c07b65fc1"
       }
     },
     {
@@ -12074,8 +12074,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/9ec87c32-a89c-44d6-9608-d0aec10391a4"
       }
     },
     {
@@ -12104,8 +12104,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/71d0104f-c8ea-4fcb-9d8a-24922537e027"
       }
     },
     {
@@ -12232,7 +12232,7 @@
               "text": "Medication Reconciliation (procedure)"
             },
             "net": {
-              "value": 924.60,
+              "value": 924.6,
               "currency": "USD"
             }
           }
@@ -12243,8 +12243,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/e12622e1-bd4f-4b86-83be-2065f32a75e3"
       }
     },
     {
@@ -12560,7 +12560,7 @@
               ]
             },
             "net": {
-              "value": 924.60,
+              "value": 924.6,
               "currency": "USD"
             },
             "adjudication": [
@@ -12605,7 +12605,7 @@
                   ]
                 },
                 "amount": {
-                  "value": 924.60,
+                  "value": 924.6,
                   "currency": "USD"
                 }
               },
@@ -12620,7 +12620,7 @@
                   ]
                 },
                 "amount": {
-                  "value": 924.60,
+                  "value": 924.6,
                   "currency": "USD"
                 }
               },
@@ -12679,8 +12679,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/98b17ce6-ba1b-414a-8cbf-b230431106ca"
       }
     },
     {
@@ -12727,8 +12727,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/62b18405-889d-47b9-ab05-54c89e027fa4"
       }
     },
     {
@@ -12774,8 +12774,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/15bcb764-4bfd-4591-861a-287a0c838aed"
       }
     },
     {
@@ -12821,8 +12821,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/d5a7ef7d-6bc5-44af-b14c-1e086d12b4ef"
       }
     },
     {
@@ -12868,8 +12868,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/74eda9d3-1028-4d81-bf6a-04e2d9c942e8"
       }
     },
     {
@@ -12915,8 +12915,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/848211e1-a934-49e3-aaf0-9a48a5ce417f"
       }
     },
     {
@@ -12962,8 +12962,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0da1d63f-aded-43a4-b688-09a900238279"
       }
     },
     {
@@ -13009,8 +13009,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f556393f-7874-49e7-a09b-6fe66dce6985"
       }
     },
     {
@@ -13088,8 +13088,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/5b643486-14d8-4576-b9ea-1311e182f250"
       }
     },
     {
@@ -13139,8 +13139,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ca1d5521-8a82-4e19-9856-c321f5c54570"
       }
     },
     {
@@ -13171,8 +13171,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/a9b1ca86-837c-4f7e-9f34-c11a62a39c2f"
       }
     },
     {
@@ -13201,8 +13201,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/d21f4061-e956-4cfa-9bc9-21741e86dace"
       }
     },
     {
@@ -13340,8 +13340,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/02278c6c-017f-42aa-8575-c5e9ad830dfa"
       }
     },
     {
@@ -13776,8 +13776,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/23b2bc1a-3ff9-4728-acb1-565191952bc8"
       }
     },
     {
@@ -13824,8 +13824,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/da050e23-7c24-4a56-97f3-533771f71cb7"
       }
     },
     {
@@ -13870,8 +13870,8 @@
         "recordedDate": "2013-11-20T04:18:32+08:00"
       },
       "request": {
-        "method": "POST",
-        "url": "Condition"
+        "method": "PUT",
+        "url": "Condition/3655a11b-6850-442f-b9cc-c74c8cf26d55"
       }
     },
     {
@@ -13910,8 +13910,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "MedicationRequest"
+        "method": "PUT",
+        "url": "MedicationRequest/2a97c8b4-fd31-41de-9a5d-d46e045d1cfa"
       }
     },
     {
@@ -13987,8 +13987,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/8b428fc3-1d2a-4661-beaf-c272a8c68668"
       }
     },
     {
@@ -14083,8 +14083,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "CareTeam"
+        "method": "PUT",
+        "url": "CareTeam/85bc4476-dc0c-44aa-854e-787885349b29"
       }
     },
     {
@@ -14170,8 +14170,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "CarePlan"
+        "method": "PUT",
+        "url": "CarePlan/15558153-385d-470a-ac87-3033ed32ae68"
       }
     },
     {
@@ -14269,8 +14269,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/c47e5e2a-e8ec-4dec-85ba-1b2948661370"
       }
     },
     {
@@ -14498,14 +14498,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/970952c4-9e89-4800-ac5b-ad8167f3fcd4"
       }
     },
     {
@@ -14552,8 +14552,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/dffbc3a7-256f-4e77-b1df-a4f007d3edf7"
       }
     },
     {
@@ -14599,8 +14599,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/354fe75a-563a-4b04-a545-a151d14ee845"
       }
     },
     {
@@ -14646,8 +14646,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/6244da38-a1e3-4309-b7bb-b74feaa40c7c"
       }
     },
     {
@@ -14693,8 +14693,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4d35ee78-34a2-4c37-883c-f07737fdff0e"
       }
     },
     {
@@ -14740,8 +14740,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/6124d5d7-1009-47e6-8e4e-f11081203e4b"
       }
     },
     {
@@ -14787,8 +14787,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/eaf51036-1c4a-42fd-9444-3d6d172a4617"
       }
     },
     {
@@ -14834,8 +14834,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/23251c1f-235e-49e4-9a1c-2a9d8d7abdbb"
       }
     },
     {
@@ -14913,8 +14913,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/9800147f-e46e-4e1c-80d3-d3491e48124a"
       }
     },
     {
@@ -14964,8 +14964,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/40481528-b5aa-4b25-9124-06555c62c068"
       }
     },
     {
@@ -14994,8 +14994,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/54db03b8-e472-4ec4-aaac-2292be69cf96"
       }
     },
     {
@@ -15105,8 +15105,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/9dd72024-f685-49b0-aab2-eaadc52a1972"
       }
     },
     {
@@ -15414,8 +15414,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/4930c684-4af4-4512-98c5-3c4ef4d12143"
       }
     },
     {
@@ -15462,8 +15462,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/c9fc73c0-2c6c-4db4-bb2c-46852ae976ec"
       }
     },
     {
@@ -15509,8 +15509,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0aaebbd5-af12-4ada-a218-59db40f6420b"
       }
     },
     {
@@ -15556,8 +15556,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/27282d2a-359b-4f2e-ab7a-e3c99aaf71ff"
       }
     },
     {
@@ -15603,8 +15603,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/78a94014-5908-4a7d-a6f7-1ccaa81027d4"
       }
     },
     {
@@ -15650,8 +15650,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/cc4d3e5e-779f-4673-8e40-236100682e1f"
       }
     },
     {
@@ -15697,8 +15697,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/18a89874-12e9-4775-9b96-2c7e5dba0f06"
       }
     },
     {
@@ -15744,8 +15744,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/62a60321-8a40-43a8-b08d-8a42eacee982"
       }
     },
     {
@@ -15823,8 +15823,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ca610407-1c71-461c-b079-135b944bfd6d"
       }
     },
     {
@@ -15874,8 +15874,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f80e2b64-f113-44e4-8ef3-c401a299e2d9"
       }
     },
     {
@@ -15906,8 +15906,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/4d5d7f5c-d276-4f4c-accc-a785c284e559"
       }
     },
     {
@@ -16009,8 +16009,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/46c3d174-5dec-45bf-9edb-218c1e2d813c"
       }
     },
     {
@@ -16315,8 +16315,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/c38c24be-2fc2-46df-aa66-c820e06c7fe3"
       }
     },
     {
@@ -16363,8 +16363,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/d3fcaede-4948-4b28-b61a-5085cb1e663e"
       }
     },
     {
@@ -16410,8 +16410,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/20d140ec-bdc0-4e78-9bbb-ed25b9e127e2"
       }
     },
     {
@@ -16457,8 +16457,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c5d13a57-16e2-4c9e-afa7-b4e8a8e15943"
       }
     },
     {
@@ -16504,8 +16504,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/4a7efac4-1c12-4dbb-9c8b-95a8f5074838"
       }
     },
     {
@@ -16551,8 +16551,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ab8a54f0-8b2f-4bba-9a4d-2fdbe12065f3"
       }
     },
     {
@@ -16598,8 +16598,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/d1112fce-d458-4a91-a675-6e27c0d74981"
       }
     },
     {
@@ -16645,8 +16645,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/8398b379-f87d-4036-a230-fdaed201851b"
       }
     },
     {
@@ -16724,8 +16724,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ba9ad839-c071-4ffd-a4ec-e616a37f9132"
       }
     },
     {
@@ -16775,8 +16775,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/3f7d9c7f-00d3-4ed7-87bf-89d2e4d2f4e8"
       }
     },
     {
@@ -16807,8 +16807,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/73a941df-2249-4fa2-b0a3-bbd6a009f244"
       }
     },
     {
@@ -16837,8 +16837,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/b5bdb6d6-5039-4406-bf3d-f313fcf9952f"
       }
     },
     {
@@ -16976,8 +16976,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/0bb252db-0985-489c-97e7-16c547077241"
       }
     },
     {
@@ -17412,8 +17412,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/30773320-6ce3-430f-9de1-7262ceb80e0e"
       }
     },
     {
@@ -17460,8 +17460,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/973af65b-a62e-4860-8faf-8d3c70861e34"
       }
     },
     {
@@ -17507,8 +17507,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/475fa001-839c-432f-881a-2ee084cd728f"
       }
     },
     {
@@ -17554,8 +17554,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/e8a3ff5e-06f0-40aa-8e39-3c84846e601b"
       }
     },
     {
@@ -17601,8 +17601,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/888f568f-4e54-414a-a4e7-2eabd048b9d1"
       }
     },
     {
@@ -17648,8 +17648,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/a112ca56-fc1b-4694-b678-e71f49e290c9"
       }
     },
     {
@@ -17695,8 +17695,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b9960ea2-1a10-4196-ae1c-f42a573c4155"
       }
     },
     {
@@ -17774,8 +17774,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0a8167dd-c945-4482-bc9a-8c30e83a101d"
       }
     },
     {
@@ -17825,8 +17825,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/e6474d58-81a5-4e52-b224-d90c59341821"
       }
     },
     {
@@ -17855,8 +17855,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/efa851f0-f9c9-495f-a61e-859376aa139b"
       }
     },
     {
@@ -17885,8 +17885,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/946cf58f-0058-4116-ae7d-12af35f4a2bf"
       }
     },
     {
@@ -17915,8 +17915,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/1fb597dd-1ed9-411f-a685-6de0566d706f"
       }
     },
     {
@@ -17945,8 +17945,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/87f9e716-7d89-4b0f-b49b-3d07a196ea4f"
       }
     },
     {
@@ -17975,8 +17975,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/d4060e63-e1fd-43be-bdf4-d9affccb3d23"
       }
     },
     {
@@ -18222,8 +18222,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/4d01fd41-20f6-410a-976b-b4bb8df97cb9"
       }
     },
     {
@@ -19051,8 +19051,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/aed5fd58-5ece-46a1-a438-46395f7b3146"
       }
     },
     {
@@ -19099,8 +19099,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/4ae10213-3a7c-4a0f-ba3c-ebdf49046aad"
       }
     },
     {
@@ -19146,8 +19146,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/a0b32503-42ac-4e74-bd83-f2e34fb20d44"
       }
     },
     {
@@ -19193,8 +19193,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/2492efc7-169b-4086-be75-3734004f7ba5"
       }
     },
     {
@@ -19240,8 +19240,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/3301aa1a-ea67-4424-9451-5f444fcdb59d"
       }
     },
     {
@@ -19287,8 +19287,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/c2d666f3-95d0-4ba5-8cc1-4fd1c90785bf"
       }
     },
     {
@@ -19334,8 +19334,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/0712f8d0-f53e-4467-b50b-5afe20abaad5"
       }
     },
     {
@@ -19413,8 +19413,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b9f620f7-4e96-48cd-a7d9-491c30d4f0dd"
       }
     },
     {
@@ -19460,8 +19460,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/96ad4bf0-f70b-4db8-8435-18287bb59723"
       }
     },
     {
@@ -19507,8 +19507,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/455b1604-6d0c-4de6-93f1-633d4b063158"
       }
     },
     {
@@ -19554,8 +19554,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/83ade07b-050c-40cb-be76-8a511279b391"
       }
     },
     {
@@ -19601,8 +19601,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ac33cb87-25a0-435a-a1d8-8d357c123527"
       }
     },
     {
@@ -19648,8 +19648,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/91b86101-e704-4daa-abbc-69314fc923d7"
       }
     },
     {
@@ -19695,8 +19695,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/5265ee6e-6161-4f5c-9b59-1a43b8bf2124"
       }
     },
     {
@@ -19742,8 +19742,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/aad674e7-971c-446e-8b98-8d087d2de207"
       }
     },
     {
@@ -19789,8 +19789,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/82b15aa1-6cc6-4c7b-951b-1832430b7fb5"
       }
     },
     {
@@ -19836,8 +19836,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/133ee6a7-33be-4431-a337-d1e20cffada0"
       }
     },
     {
@@ -19883,8 +19883,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/f4993535-3f78-4222-92b3-b0d4b97c4d03"
       }
     },
     {
@@ -19930,8 +19930,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/53c9d6a0-c9b9-4a48-8267-068c8c10351a"
       }
     },
     {
@@ -19981,8 +19981,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/ecaa13e1-e671-483c-ae3f-106a7f98872b"
       }
     },
     {
@@ -20011,8 +20011,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/5132c4bf-185b-460b-bec4-4649297cf3ae"
       }
     },
     {
@@ -20098,8 +20098,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "DiagnosticReport"
+        "method": "PUT",
+        "url": "DiagnosticReport/6a473bbc-8624-4c04-a950-0e92fbb01ff2"
       }
     },
     {
@@ -20209,8 +20209,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/22eee6a5-e662-4838-9378-f4d970beb518"
       }
     },
     {
@@ -20518,8 +20518,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/7337b4d4-7e1b-443c-8762-9c692db5600b"
       }
     },
     {
@@ -20577,8 +20577,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/cd8a49fd-7c8b-42f6-8ffd-647a0d999dc4"
       }
     },
     {
@@ -20623,8 +20623,8 @@
         "recordedDate": "2017-01-10T03:18:32+07:00"
       },
       "request": {
-        "method": "POST",
-        "url": "Condition"
+        "method": "PUT",
+        "url": "Condition/212a806b-8416-4a12-b33e-b3606ee880bd"
       }
     },
     {
@@ -20722,8 +20722,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/abbc1625-6369-4157-82ec-847e97601717"
       }
     },
     {
@@ -20951,14 +20951,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/2514d8e7-24aa-4ad1-a92c-055329b18277"
       }
     },
     {
@@ -21005,8 +21005,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/4765f964-fb16-4f61-8f85-3ed409305770"
       }
     },
     {
@@ -21051,8 +21051,8 @@
         "recordedDate": "2017-09-21T03:18:32+07:00"
       },
       "request": {
-        "method": "POST",
-        "url": "Condition"
+        "method": "PUT",
+        "url": "Condition/b7f4588d-ec8f-42a2-8f2e-87253c69e7da"
       }
     },
     {
@@ -21091,8 +21091,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "MedicationRequest"
+        "method": "PUT",
+        "url": "MedicationRequest/ca85974f-f94b-4d9b-9be1-59f4f3a7dead"
       }
     },
     {
@@ -21168,8 +21168,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/61e3880d-792e-4090-b358-dd83bad6e3e4"
       }
     },
     {
@@ -21264,8 +21264,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "CareTeam"
+        "method": "PUT",
+        "url": "CareTeam/be7b2a59-7617-4720-aa33-200bf88f7f55"
       }
     },
     {
@@ -21354,8 +21354,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "CarePlan"
+        "method": "PUT",
+        "url": "CarePlan/a72605b5-9e57-4f9b-87e0-33023143b9e8"
       }
     },
     {
@@ -21453,8 +21453,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/ee2158b6-a8d3-4ec9-9fc8-14fc5776da37"
       }
     },
     {
@@ -21682,14 +21682,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/a3fd93aa-6028-4a1b-89af-871759e382c5"
       }
     },
     {
@@ -21736,8 +21736,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/2d416135-e105-4364-a684-29d5b440b7dc"
       }
     },
     {
@@ -21783,8 +21783,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b1fcaeb0-2857-4771-b83a-7fa34f7bbc7d"
       }
     },
     {
@@ -21830,8 +21830,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/2288a924-a72e-48c3-8bb0-92bcbd1fef15"
       }
     },
     {
@@ -21877,8 +21877,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/d3c0edc7-e7a5-439c-9ffc-bbb7bbe42ec6"
       }
     },
     {
@@ -21924,8 +21924,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/56f9df20-a65a-4d9d-8e16-0db10a0b8469"
       }
     },
     {
@@ -21971,8 +21971,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/53ab2ee8-b9d1-48e2-a974-ad16f2069c6b"
       }
     },
     {
@@ -22050,8 +22050,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/e7e470c7-db02-440a-ba88-704e79ada297"
       }
     },
     {
@@ -22101,8 +22101,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/d3c9d07d-91f8-4eca-9e0b-34d7f089754c"
       }
     },
     {
@@ -22133,8 +22133,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/e9e6d5f8-b638-4942-9862-c98b54e62b0b"
       }
     },
     {
@@ -22163,8 +22163,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/72fdd086-1111-4b89-9d4c-b3aca4a407c8"
       }
     },
     {
@@ -22302,8 +22302,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/ab23319a-c669-4aa6-b56d-ed0986463596"
       }
     },
     {
@@ -22738,8 +22738,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/98e566f6-c5b4-4767-9438-88468f540626"
       }
     },
     {
@@ -22797,8 +22797,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/ee044a79-6536-40ec-a984-482511d65fac"
       }
     },
     {
@@ -22843,8 +22843,8 @@
         "recordedDate": "2018-03-04T03:18:32+07:00"
       },
       "request": {
-        "method": "POST",
-        "url": "Condition"
+        "method": "PUT",
+        "url": "Condition/dd9c9395-81c5-43fa-b9c2-cd84a408bab9"
       }
     },
     {
@@ -22885,8 +22885,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "MedicationRequest"
+        "method": "PUT",
+        "url": "MedicationRequest/89b19c61-2b14-4e4b-9060-2af0177db685"
       }
     },
     {
@@ -22962,8 +22962,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/abe5acac-b5a6-452b-81df-137114da8f87"
       }
     },
     {
@@ -23061,8 +23061,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/63d9369f-c237-4992-896b-ba5be47e263a"
       }
     },
     {
@@ -23290,14 +23290,14 @@
         ],
         "payment": {
           "amount": {
-            "value": 0.0,
+            "value": 0,
             "currency": "USD"
           }
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/0b11105e-bdde-4b25-a021-2b13661b3b8b"
       }
     },
     {
@@ -23344,8 +23344,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Encounter"
+        "method": "PUT",
+        "url": "Encounter/8dfc46ab-2f3f-4532-ad31-98fd8ce082bb"
       }
     },
     {
@@ -23391,8 +23391,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b76c4b36-8243-4431-8938-d785f279b622"
       }
     },
     {
@@ -23438,8 +23438,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/93b403a6-26fd-47f3-82d8-5ca46b8f71f1"
       }
     },
     {
@@ -23485,8 +23485,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/b6d7e651-5c63-4f86-bda2-a2f0a32d4512"
       }
     },
     {
@@ -23532,8 +23532,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/1ab703b0-b3f2-4e8c-a2bb-49c12bec0a58"
       }
     },
     {
@@ -23579,8 +23579,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/5e33e02b-61ce-4585-adcf-24c7e5daa04e"
       }
     },
     {
@@ -23658,8 +23658,8 @@
         ]
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/df23614b-ebbc-4507-9d4d-342c0a010405"
       }
     },
     {
@@ -23709,8 +23709,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Observation"
+        "method": "PUT",
+        "url": "Observation/2f496d86-53bf-4e1b-9511-5e5b43b7c8f4"
       }
     },
     {
@@ -23741,8 +23741,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Procedure"
+        "method": "PUT",
+        "url": "Procedure/4b146141-89dd-45e4-a578-c0171de5d4cf"
       }
     },
     {
@@ -23771,8 +23771,8 @@
         "primarySource": true
       },
       "request": {
-        "method": "POST",
-        "url": "Immunization"
+        "method": "PUT",
+        "url": "Immunization/6a5ca7ff-a723-4aeb-b2cd-0ebf8bf9c54e"
       }
     },
     {
@@ -23910,8 +23910,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "Claim"
+        "method": "PUT",
+        "url": "Claim/88b744e3-e42a-4758-bf4b-0edf04d10d54"
       }
     },
     {
@@ -24346,8 +24346,8 @@
         }
       },
       "request": {
-        "method": "POST",
-        "url": "ExplanationOfBenefit"
+        "method": "PUT",
+        "url": "ExplanationOfBenefit/08c9854c-b528-4318-b3a3-fe8ad57514f7"
       }
     }
   ]
